@@ -1,0 +1,42 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 50px; 
+    padding: 50px;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+  
+.gallery-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 20vw;
+    height: 32vh;
+}
+
+.Operations {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+    gap: 15px;
+    /* background-color: aqua; */
+}
+
+.left {
+    display: flex;
+    gap: 10px;
+}
+
+.likeCount {
+    display: flex;
+    justify-self: start;
+    margin-left: 10px;
+    font-size: medium;
+}
+
+  

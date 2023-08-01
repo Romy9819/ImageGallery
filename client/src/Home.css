@@ -1,0 +1,37 @@
+/* Parent element that wraps the .UploadContainer */
+.parentContainer {
+    display: flex;
+    justify-content: center; /* Center children horizontally */
+    align-items: center; /* Center children vertically */
+    height: 100vh; /* Adjust the height to center the content */
+  }
+  
+  .UploadContainer {
+    /* Your existing styles for the .UploadContainer */
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 40px;
+    border: 1px solid #3f3f3f;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    justify-self: center;
+    align-self: center;
+    width: 20vw;
+    height: 25vh;
+    gap: 10px;
+    justify-items: center;
+    margin-bottom: 100px;
+  }
+
+  .UploadContainer input {
+    padding: 5px;
+  }
+
+  .UploadContainer button {
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(133, 149, 249);
+  }
+  
